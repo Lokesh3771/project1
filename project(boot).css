@@ -8,6 +8,9 @@
 #xxx{
     margin-top: 10px;
 } 
+.navbar-nav{
+    margin-left: 500px;
+}
 #font{
     font-size: 30px;
     font-weight: 750;
@@ -225,31 +228,21 @@
 
 }
 #box{
-    border: 1px solid rgb(233, 226, 226); margin-left: 40px;
+    border: 1px solid rgb(233, 226, 226);
+    margin-left: 40px;
     height: 270px;
     width: 380px;
 }
-.ne::after{
-    content:"";
-    display: block;
-    bottom: -10px;
-    width: 175px;
-    height: 5px;
-    background-color: rgb(0,131,116);
-    position: relative;
-    margin-left: 2px;
-    opacity: 0.6;
-
+.ne{
+    border-bottom: 4px solid rgb(231,233,233);
+    /* width: auto; */
+    opacity: 0.8;
 }
-.roundd:hover{
+#box:hover .ne{
     opacity: 1;
-    color: #008372;
+    border-bottom: 4px solid #008372;
 }
-.ne:hover{
-    opacity: 1;
-    color: #008372;
 
-}
 .lisss{
     list-style-type: none;
     font-size: 18px;
@@ -663,10 +656,29 @@ input[type="email"]{
     margin-right: 10px;
     opacity: 0.1;
     }
+    .arr{
+        font-size: 50px;
+        color: #008372;
+         margin-left: -40px;
+         opacity: 0.1;
+    }
+    .arr:hover{
+        opacity: 0.5;
+        color: #008372;
+    }
+    #box:hover .arr{
+        opacity: 0.5 ;
+    }
+    #box:hover .re{
+        color: #008372;
+    }
 
 @media screen and (max-width:760px){
     #com{
         font-size: 13px;
+    }
+    .navbar-nav{
+        margin-left: 0px;
     }
     .wv{
         font-size: 13px;
