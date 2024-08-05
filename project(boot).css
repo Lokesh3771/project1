@@ -672,6 +672,20 @@ input[type="email"]{
     #box:hover .re{
         color: #008372;
     }
+   #shho{
+    /* height: 40px; */
+    /* width: 40px; */
+    border: 1px solid #008372;
+    padding: 5px 9px;
+    border-radius: 50%;
+    background-color: #008372;
+    font-size: 25px;
+    position: fixed;
+    bottom: 10px;
+    right:20px;
+    color: aliceblue;
+
+   } 
 
 @media screen and (max-width:760px){
     #com{
